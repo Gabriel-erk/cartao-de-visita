@@ -6,7 +6,7 @@ window.onload = () => {
     // verifica se o navegador suporta o 'serviceWorker', se não suportar, não irá executar o pwa
     if ('serviceWorker' in navigator) {
         // registra o serviceWorker no navegador, localizado em 'sw/js'
-        navigator.serviceWorker.register
+        navigator.serviceWorker
                     .register('.sw/js');
     }
 }
